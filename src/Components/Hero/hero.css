@@ -30,7 +30,7 @@
 .hero-hand-icon img{
     width: 80px;
 }
-.hero-lastest-btn{
+.hero-latest-btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     font-size: 22px;
     font-weight:500;
 }
-.hero-righ{
+.hero-right{
     flex: 1;
     display: flex;
     align-items: center;
