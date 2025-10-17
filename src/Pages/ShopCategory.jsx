@@ -8,7 +8,7 @@ import Item from '../Components/Items/Item'
 
 
 const ShopCategory = (props) => {
-   const {all_product} = useContext(ShopContext);
+  const {all_product} = useContext(ShopContext);
   return (
     <div className='shop-category'>
       <img className='shopcategory-banner' src={props.banner} alt="" />
@@ -18,6 +18,7 @@ const ShopCategory = (props) => {
         </p>
         <div className="shopcategory-sort">
           Sort by <img src={dropdown} alt="" />
+        </div>
         </div>
         <div className="shopcategory-products">
           {all_product.map((item,i)=>{
@@ -29,7 +30,10 @@ const ShopCategory = (props) => {
             }
           })}
         </div>
-      </div>
+        <div className="shopcategory-loadmore">
+          Explore More
+        </div>
+      
     </div>
   )
 }
